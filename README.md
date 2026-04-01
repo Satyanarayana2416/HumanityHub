@@ -1,4 +1,4 @@
-# 🌿 HopeRise Foundation — NGO Website
+# 🌿 HumanityHub Foundation — NGO Website
 
 A fully responsive, production-ready NGO website built with the **MERN Stack** (MongoDB, Express.js, React, Node.js) featuring JWT authentication, admin panel, modern animations, and a premium UI design.
 
@@ -58,7 +58,7 @@ npm install
 Edit `server/.env`:
 ```env
 PORT=5000
-MONGO_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/hoperise_ngo?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/humanityhub_ngo?retryWrites=true&w=majority
 JWT_SECRET=your_secret_key_here
 ```
 
@@ -68,7 +68,7 @@ Start the server, then make a POST request:
 ```bash
 curl -X POST http://localhost:5000/api/auth/register \
   -H "Content-Type: application/json" \
-  -d '{"name":"Admin","email":"admin@hoperise.org","password":"admin123","role":"admin"}'
+  -d '{"name":"Admin","email":"admin@humanityhub.org","password":"admin123","role":"admin"}'
 ```
 
 ### 4. Run the Application

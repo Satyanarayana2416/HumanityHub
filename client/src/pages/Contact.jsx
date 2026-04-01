@@ -10,7 +10,7 @@ import SectionTitle from '../components/SectionTitle';
 const contactInfo = [
     { icon: <FiMapPin size={24} />, title: 'Our Address', text: '123 Hope Street, Connaught Place, New Delhi, India - 110001' },
     { icon: <FiPhone size={24} />, title: 'Phone Number', text: '+91 98765 43210' },
-    { icon: <FiMail size={24} />, title: 'Email Address', text: 'contact@hoperise.org' },
+    { icon: <FiMail size={24} />, title: 'Email Address', text: 'contact@humanityhub.org' },
     { icon: <FiClock size={24} />, title: 'Working Hours', text: 'Mon - Sat: 9:00 AM - 6:00 PM' },
 ];
 
@@ -140,7 +140,7 @@ export default function Contact() {
                                 style={{ border: 0, borderRadius: '16px' }}
                                 allowFullScreen
                                 loading="lazy"
-                                title="HopeRise Location"
+                                title="HumanityHub Location"
                             ></iframe>
                         </div>
                     </ScrollReveal>

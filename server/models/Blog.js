@@ -17,7 +17,7 @@ const blogSchema = new mongoose.Schema({
     author: {
         type: String,
         required: [true, 'Please add an author'],
-        default: 'HopeRise Foundation'
+        default: 'HumanityHub Foundation'
     },
     image: {
         type: String,

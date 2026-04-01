@@ -36,7 +36,7 @@ export default function AdminLogin() {
                     <p>Access the admin dashboard</p>
                 </div>
                 <form onSubmit={handleSubmit}>
-                    <div className="form-group"><label>Email</label><input type="email" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} placeholder="admin@hoperise.org" /></div>
+                    <div className="form-group"><label>Email</label><input type="email" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} placeholder="admin@humanityhub.org" /></div>
                     <div className="form-group"><label>Password</label><input type="password" value={form.password} onChange={e => setForm({ ...form, password: e.target.value })} placeholder="Enter password" /></div>
                     <motion.button type="submit" className="btn btn--primary btn--full" disabled={loading} whileHover={{ scale: 1.02 }}>
                         {loading ? 'Signing in...' : 'Sign In'}

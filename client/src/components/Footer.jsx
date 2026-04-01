@@ -31,7 +31,7 @@ export default function Footer() {
             <div className="footer__content">
                 <div className="footer__grid">
                     <div className="footer__brand">
-                        <h3 className="footer__logo">🌿 HopeRise Foundation</h3>
+                        <h3 className="footer__logo">🌿 HumanityHub Foundation</h3>
                         <p className="footer__desc">
                             Empowering communities, transforming lives. Together we can create a world where every person has the opportunity to thrive.
                         </p>
@@ -69,7 +69,7 @@ export default function Footer() {
                         <ul className="footer__list">
                             <li className="footer__info">📍 123 Hope Street, New Delhi, India</li>
                             <li className="footer__info">📞 +91 98765 43210</li>
-                            <li className="footer__info">✉️ contact@hoperise.org</li>
+                            <li className="footer__info">✉️ contact@humanityhub.org</li>
                             <li className="footer__info">🕐 Mon - Sat: 9:00 AM - 6:00 PM</li>
                         </ul>
                     </div>
@@ -85,7 +85,7 @@ export default function Footer() {
                 </div>
 
                 <div className="footer__bottom">
-                    <p>© 2024 HopeRise Foundation. All rights reserved. Made with <FaHeart style={{ color: '#ff6b6b', verticalAlign: 'middle' }} /> for a better world.</p>
+                    <p>© 2024 HumanityHub Foundation. All rights reserved. Made with <FaHeart style={{ color: '#ff6b6b', verticalAlign: 'middle' }} /> for a better world.</p>
                 </div>
             </div>
         </footer>

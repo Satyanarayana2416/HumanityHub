@@ -6,7 +6,7 @@ const API = axios.create({
 
 // Add auth token to requests
 API.interceptors.request.use((config) => {
-    const user = JSON.parse(localStorage.getItem('hoperise_user'));
+    const user = JSON.parse(localStorage.getItem('humanityhub_user'));
     if (user?.token) {
         config.headers.Authorization = `Bearer ${user.token}`;
     }

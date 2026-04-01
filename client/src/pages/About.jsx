@@ -11,7 +11,7 @@ const team = [
 ];
 
 const timeline = [
-    { year: '2015', title: 'Foundation Established', desc: 'HopeRise was founded with a mission to serve the underserved.' },
+    { year: '2015', title: 'Foundation Established', desc: 'HumanityHub was founded with a mission to serve the underserved.' },
     { year: '2017', title: 'First 1000 Lives Impacted', desc: 'Expanded to 5 states with education and healthcare programs.' },
     { year: '2019', title: 'International Recognition', desc: 'Received awards for community development and transparency.' },
     { year: '2021', title: 'Pandemic Response', desc: 'Distributed relief to over 10,000 families during COVID-19.' },
@@ -37,7 +37,7 @@ export default function About() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h1>About HopeRise Foundation</h1>
+                    <h1>About HumanityHub Foundation</h1>
                     <p>Discover the story, people, and values behind our mission to transform lives.</p>
                 </motion.div>
             </section>
@@ -63,13 +63,13 @@ export default function About() {
             {/* Story / Background */}
             <section className="section section--alt">
                 <div className="container">
-                    <SectionTitle subtitle="Our Journey" title="The HopeRise Story" />
+                    <SectionTitle subtitle="Our Journey" title="The HumanityHub Story" />
                     <div className="story-content">
                         <ScrollReveal direction="left">
                             <div className="story-content__text">
-                                <p>Founded in 2015 by Arjun Mehta, HopeRise Foundation began as a small community initiative in rural India. What started as weekend teaching sessions for underprivileged children has grown into a full-fledged non-profit organization impacting over 15,000 lives across 50+ communities.</p>
+                                <p>Founded in 2015 by Arjun Mehta, HumanityHub Foundation began as a small community initiative in rural India. What started as weekend teaching sessions for underprivileged children has grown into a full-fledged non-profit organization impacting over 15,000 lives across 50+ communities.</p>
                                 <p>Our journey has been fueled by the unwavering belief that change begins at the grassroots level. Through strategic partnerships, dedicated volunteers, and transparent operations, we have built programs that not only address immediate needs but also create sustainable pathways for community growth.</p>
-                                <p>Today, HopeRise operates across education, healthcare, environmental conservation, women empowerment, and disaster relief sectors, with a team of 250+ volunteers and partners nationwide.</p>
+                                <p>Today, HumanityHub operates across education, healthcare, environmental conservation, women empowerment, and disaster relief sectors, with a team of 250+ volunteers and partners nationwide.</p>
                             </div>
                         </ScrollReveal>
                     </div>
@@ -99,7 +99,7 @@ export default function About() {
             {/* Team */}
             <section className="section section--alt">
                 <div className="container">
-                    <SectionTitle subtitle="Our People" title="Meet The Team" description="The passionate individuals behind HopeRise who work tirelessly to create positive change." />
+                    <SectionTitle subtitle="Our People" title="Meet The Team" description="The passionate individuals behind HumanityHub who work tirelessly to create positive change." />
                     <div className="team__grid">
                         {team.map((member, i) => (
                             <ScrollReveal key={i} delay={i * 0.1} direction="scale">

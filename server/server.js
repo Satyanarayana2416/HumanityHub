@@ -29,7 +29,7 @@ app.use('/api/stats', require('./routes/statsRoutes'));
 
 // Health check
 app.get('/api/health', (req, res) => {
-    res.json({ status: 'OK', message: 'HopeRise NGO API is running' });
+    res.json({ status: 'OK', message: 'HumanityHub NGO API is running' });
 });
 
 // Error handler

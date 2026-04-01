@@ -1,7 +1,7 @@
 {
-  "name": "hoperise-ngo-server",
+  "name": "humanityhub-ngo-server",
   "version": "1.0.0",
-  "description": "Backend API for HopeRise Foundation NGO Website",
+  "description": "Backend API for HumanityHub Foundation NGO Website",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

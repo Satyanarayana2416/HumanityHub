@@ -21,9 +21,9 @@ const features = [
 ];
 
 const testimonials = [
-    { name: 'Priya Sharma', role: 'Volunteer', text: 'Working with HopeRise has been one of the most fulfilling experiences of my life. The team is incredibly passionate and dedicated.' },
-    { name: 'Rajesh Kumar', role: 'Beneficiary', text: 'Thanks to HopeRise, my children now have access to quality education. I am forever grateful for their support and kindness.' },
-    { name: 'Dr. Anita Desai', role: 'Partner', text: 'HopeRise is setting the gold standard for NGO work in India. Their transparency and impact are truly commendable.' },
+    { name: 'Priya Sharma', role: 'Volunteer', text: 'Working with HumanityHub has been one of the most fulfilling experiences of my life. The team is incredibly passionate and dedicated.' },
+    { name: 'Rajesh Kumar', role: 'Beneficiary', text: 'Thanks to HumanityHub, my children now have access to quality education. I am forever grateful for their support and kindness.' },
+    { name: 'Dr. Anita Desai', role: 'Partner', text: 'HumanityHub is setting the gold standard for NGO work in India. Their transparency and impact are truly commendable.' },
 ];
 
 export default function Home() {
@@ -162,7 +162,7 @@ export default function Home() {
                             <div className="about-preview__content">
                                 <span className="section-label">Who We Are</span>
                                 <h2>A Community Driven By Compassion And Purpose</h2>
-                                <p>HopeRise Foundation was established with a simple yet powerful vision: to create a world where access to education, healthcare, and basic necessities is not a privilege, but a right.</p>
+                                <p>HumanityHub Foundation was established with a simple yet powerful vision: to create a world where access to education, healthcare, and basic necessities is not a privilege, but a right.</p>
                                 <p>Over the years, we have worked tirelessly across multiple communities, building infrastructure, training youth, and providing critical support during times of need.</p>
                                 <Link to="/about" className="btn btn--primary">
                                     Learn More About Us <FaArrowRight />

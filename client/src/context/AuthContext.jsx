@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const stored = localStorage.getItem('hoperise_user');
+        const stored = localStorage.getItem('humanityhub_user');
         if (stored) {
             setUser(JSON.parse(stored));
         }
@@ -18,12 +18,12 @@ export const AuthProvider = ({ children }) => {
 
     const login = (userData) => {
         setUser(userData);
-        localStorage.setItem('hoperise_user', JSON.stringify(userData));
+        localStorage.setItem('humanityhub_user', JSON.stringify(userData));
     };
 
     const logout = () => {
         setUser(null);
-        localStorage.removeItem('hoperise_user');
+        localStorage.removeItem('humanityhub_user');
     };
 
     return (

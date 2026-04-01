@@ -39,7 +39,7 @@ export default function Navbar() {
             <div className="navbar__container">
                 <Link to="/" className="navbar__logo">
                     <span className="navbar__logo-icon">🌿</span>
-                    <span className="navbar__logo-text">HopeRise</span>
+                    <span className="navbar__logo-text">HumanityHub</span>
                 </Link>
 
                 <div className="navbar__links">
