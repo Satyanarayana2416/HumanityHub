@@ -50,7 +50,8 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); font-weight: 700; lin
 .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 1rem 0; transition: var(--transition); background: transparent; }
 .navbar--scrolled { background: rgba(255,255,255,0.95); backdrop-filter: blur(20px); box-shadow: var(--shadow-sm); padding: 0.6rem 0; }
 .navbar__container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; }
-.navbar__logo { display: flex; align-items: center; gap: 0.5rem; font-size: 1.5rem; font-weight: 800; font-family: var(--font-heading); }
+.navbar__logo { display: flex; align-items: center; gap: 0.8rem; font-size: 1.5rem; font-weight: 800; font-family: var(--font-heading); }
+.navbar__logo-img { height: 40px; width: auto; object-fit: contain; }
 .navbar__logo-icon { font-size: 1.8rem; }
 .navbar__logo-text { color: var(--color-primary); }
 .navbar--scrolled .navbar__logo-text { color: var(--color-primary); }

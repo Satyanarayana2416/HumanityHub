@@ -69,7 +69,7 @@ export default function AdminDashboard() {
             {toast && <Toast {...toast} onClose={() => setToast(null)} />}
             <div className="admin-sidebar">
                 <div className="admin-sidebar__header">
-                    <span>🌿</span><h3>Admin Panel</h3>
+                    <img src="/logo.png" alt="Logo" style={{ height: '28px', objectFit: 'contain' }} /><h3>Admin Panel</h3>
                 </div>
                 {tabs.map(t => (
                     <button key={t.key} className={`admin-tab ${activeTab === t.key ? 'admin-tab--active' : ''}`} onClick={() => setActiveTab(t.key)}>

@@ -31,7 +31,10 @@ export default function Footer() {
             <div className="footer__content">
                 <div className="footer__grid">
                     <div className="footer__brand">
-                        <h3 className="footer__logo">🌿 HumanityHub Foundation</h3>
+                        <div className="footer__logo-wrap" style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1rem' }}>
+                            <img src="/logo.png" alt="HumanityHub Logo" style={{ height: '36px', objectFit: 'contain' }} />
+                            <h3 className="footer__logo" style={{ marginBottom: 0 }}>HumanityHub Foundation</h3>
+                        </div>
                         <p className="footer__desc">
                             Empowering communities, transforming lives. Together we can create a world where every person has the opportunity to thrive.
                         </p>
